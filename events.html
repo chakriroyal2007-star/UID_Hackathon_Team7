@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Technova 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>TECHNOVA 2026</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events & Registration</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+</nav>
+
+
+<section class="container">
+
+    <h2>Events List</h2>
+
+    <div class="event-grid">
+
+        <div class="event-card">
+            <img src="https://www.apu.apus.edu/images/site/cards/coding-skills-apu.jpg" alt="">
+            <h3>Coding Challenge</h3>
+            <p><strong>ID:</strong> E101</p>
+            <p><strong>Category:</strong> Technical</p>
+            <p><strong>Date:</strong> 10 Feb 2026</p>
+            <p><strong>Venue:</strong> Lab 1</p>
+            <p><strong>Fee:</strong> ₹100</p>
+            <p class="open">Status: Open</p>
+        </div>
+
+        <div class="event-card">
+            <img src="https://www.atoss.com/static/88684f096935e61c9f69cfec55131500/8ae8c/robotik-und-ai.jpg.jpg" alt="">
+            <h3>Robotics</h3>
+            <p><strong>ID:</strong> E102</p>
+            <p><strong>Category:</strong> Innovation</p>
+            <p><strong>Date:</strong> 11 Feb 2026</p>
+            <p><strong>Venue:</strong> Seminar Hall</p>
+            <p><strong>Fee:</strong> ₹150</p>
+            <p class="open">Status: Open</p>
+        </div>
+
+        <div class="event-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarHQXzDC_JTN_RiElI4BGDGzUkzQT46AsIg&s" alt="">
+            <h3>Hackathon</h3>
+            <p><strong>ID:</strong> E103</p>
+            <p><strong>Category:</strong> Coding</p>
+            <p><strong>Date:</strong> 12 Feb 2026</p>
+            <p><strong>Venue:</strong> Auditorium</p>
+            <p><strong>Fee:</strong> ₹200</p>
+            <p class="closed">Status: Closed</p>
+        </div>
+
+        <div class="event-card">
+            <img src="https://play-lh.googleusercontent.com/SEWEXI2E18-3Im_-EELO8wNnCH7oFh24SXhj-Pmhl0Ffj0aBe4uNOxnanY8Sj3hhQWM" alt="">
+            <h3>Tech Quiz</h3>
+            <p><strong>ID:</strong> E104</p>
+            <p><strong>Category:</strong> Quiz</p>
+            <p><strong>Date:</strong> 13 Feb 2026</p>
+            <p><strong>Venue:</strong> Room 202</p>
+            <p><strong>Fee:</strong> ₹50</p>
+            <p class="open">Status: Open</p>
+        </div>
+
+        <div class="event-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYk609VWD6xMQRa4RmbYo4Xe87iuZNXC1wCw&s" alt="">
+            <h3>Gaming Tournament</h3>
+            <p><strong>ID:</strong> E105</p>
+            <p><strong>Category:</strong> Fun</p>
+            <p><strong>Date:</strong> 14 Feb 2026</p>
+            <p><strong>Venue:</strong> Gaming Arena</p>
+            <p><strong>Fee:</strong> ₹120</p>
+            <p class="open">Status: Open</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="container">
+
+    <h2>Student Registration</h2>
+
+    <form id="registrationForm">
+
+        <input type="text" id="studentName" placeholder="Student Name">
+
+        <input type="email" id="email" placeholder="Email">
+
+        <input type="text" id="mobile" placeholder="Mobile Number">
+
+        <input type="text" id="regNo" placeholder="Register Number">
+
+        <select id="eventSelect">
+            <option value="">Select Event</option>
+            <option value="Coding Challenge">Coding Challenge</option>
+            <option value="Robotics">Robotics</option>
+            <option value="Hackathon">Hackathon</option>
+            <option value="Tech Quiz">Tech Quiz</option>
+            <option value="Gaming Tournament">Gaming Tournament</option>
+        </select>
+
+        <select id="participationType">
+            <option value="">Participation Type</option>
+            <option value="Individual">Individual</option>
+            <option value="Team">Team</option>
+        </select>
+
+        <input type="text" id="teamName" placeholder="Team Name">
+
+        <input type="number" id="teamSize" placeholder="Team Size">
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <div id="message"></div>
+
+    <div id="participantDetails"></div>
+
+    <h3>Total Registrations: <span id="count">0</span></h3>
+
+</section>
+
+<footer>
+    <p>© 2026 Technova Fest Committee</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

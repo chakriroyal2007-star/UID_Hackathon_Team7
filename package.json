@@ -1,0 +1,16 @@
+{
+    "name": "technova2026",
+    "version": "1.0.0",
+    "description": "Technova 2026 Desktop App",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Student",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^42.2.0"
+    },
+    "keywords": [],
+    "type": "commonjs"
+}

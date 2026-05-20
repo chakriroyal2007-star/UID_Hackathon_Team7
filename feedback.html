@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Technova 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>TECHNOVA 2026</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events & Registration</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+</nav>
+
+<section class="container">
+
+    <h2>Participant Feedback</h2>
+
+    <form id="feedbackForm">
+
+        <input type="text" id="fbName" placeholder="Student Name">
+
+        <input type="text" id="fbRegNo" placeholder="Register Number">
+
+        <select id="fbEvent">
+            <option value="">Select Event</option>
+            <option>Coding Challenge</option>
+            <option>Robotics</option>
+            <option>Hackathon</option>
+            <option>Tech Quiz</option>
+            <option>Gaming Tournament</option>
+        </select>
+
+        <select id="rating">
+            <option value="">Select Rating</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <textarea id="comments" placeholder="Enter Feedback"></textarea>
+
+        <button type="submit">Submit Feedback</button>
+
+    </form>
+
+    <div id="feedbackMessage"></div>
+
+    <div id="feedbackSummary"></div>
+
+    <h3>Average Rating: <span id="averageRating">0</span></h3>
+
+</section>
+
+<footer>
+    <p>© 2026 Technova Fest Committee</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
